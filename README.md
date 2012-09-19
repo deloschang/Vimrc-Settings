@@ -1,10 +1,10 @@
-# Janus: Vim Distribution
+# Personal Distribution from Janus
 
-This is a distribution of plug-ins and mappings for Vim, Gvim and
-MacVim.
+# September 2012
+  - added matchit.vim
+  - included python support
 
-It is designed to provide minimal working environment using the most
-popular plug-ins and the most common mappings.
+# Notes below are from Original Janus documentation
 
 The distribution is completely customisable using a `~/.vimrc.before`
 and `~/.vimrc.after` Vim RC files.
