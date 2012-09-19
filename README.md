@@ -1,8 +1,29 @@
 # Personal Distribution from Janus
 
-{ # September 2012 }
+# September 2012
   - added matchit.vim
-  { - included python support }
+  - added surround.vim .vimrc.after for Python/Django 
+
+  let b:surround_{char2nr("v")} = "{{ \r }}"
+  let b:surround_{char2nr("{")} = "{{ \r }}"
+  let b:surround_{char2nr("%")} = "{% \r %}"
+  let b:surround_{char2nr("b")} = "{% block \1block name: \1 %}\r{% endblock \1\1 %}"
+  let b:surround_{char2nr("i")} = "{% if \1condition: \1 %}\r{% endif %}"
+  let b:surround_{char2nr("w")} = "{% with \1with: \1 %}\r{% endwith %}"
+  let b:surround_{char2nr("f")} = "{% for \1for loop: \1 %}\r{% endfor %}"
+  let b:surround_{char2nr("c")} = "{% comment %}\r{% endcomment %}"
+******
+  type 'Sv' or 'S{' for a variable
+  type 'Sb' for a block
+  type 'Si' for an if statement
+  type 'Sw' for a with statement
+  type 'Sc' for a comment
+  type 'Sf' for a for statement
+  type 'S%' for other template tags
+
+
+# Installation
+  - .vimrc.after included goes into ~/.vimrc.after
 
 # Notes below are from Original Janus documentation
 
