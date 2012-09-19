@@ -2,6 +2,10 @@
 
 # September 2012
   - added matchit.vim
+  - added syntax highlighting for htmldjango 
+```bash
+  :setfiletype htmldjango
+```
   - added surround.vim .vimrc.after for Python/Django 
 ```bash
   - let b:surround_{char2nr("v")} = "{{ \r }}"
@@ -20,7 +24,7 @@
   - type 'Sc' for a comment
   - type 'Sf' for a for statement
   - type 'S%' for other template tags
-```bash
+```
 
 # Installation
   - .vimrc.after included goes into ~/.vimrc.after
