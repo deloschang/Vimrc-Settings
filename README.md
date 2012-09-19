@@ -1,8 +1,8 @@
 # Personal Distribution from Janus
 
-# September 2012
+{ # September 2012 }
   - added matchit.vim
-  - included python support
+  { - included python support }
 
 # Notes below are from Original Janus documentation
 
