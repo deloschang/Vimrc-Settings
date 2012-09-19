@@ -3,7 +3,7 @@
 # September 2012
   - added matchit.vim
   - added surround.vim .vimrc.after for Python/Django 
-
+```bash
   - let b:surround_{char2nr("v")} = "{{ \r }}"
   - let b:surround_{char2nr("{")} = "{{ \r }}"
   - let b:surround_{char2nr("%")} = "{% \r %}"
@@ -12,7 +12,7 @@
   - let b:surround_{char2nr("w")} = "{% with \1with: \1 %}\r{% endwith %}"
   - let b:surround_{char2nr("f")} = "{% for \1for loop: \1 %}\r{% endfor %}"
   - let b:surround_{char2nr("c")} = "{% comment %}\r{% endcomment %}"
-*** Usage ***
+
   - type 'Sv' or 'S{' for a variable
   - type 'Sb' for a block
   - type 'Si' for an if statement
@@ -20,7 +20,7 @@
   - type 'Sc' for a comment
   - type 'Sf' for a for statement
   - type 'S%' for other template tags
-
+```bash
 
 # Installation
   - .vimrc.after included goes into ~/.vimrc.after
